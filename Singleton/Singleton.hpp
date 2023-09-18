@@ -1,3 +1,6 @@
+#ifndef SINGLETON_HPP
+#define SINGLETON_HPP
+
 class Singleton {
 public:
     static Singleton& getInstance() {
@@ -14,3 +17,5 @@ private:
 };
 
 int Singleton::count = 0;
+
+#endif // SINGLETON_HPP
